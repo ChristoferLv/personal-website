@@ -1,0 +1,180 @@
+@font-face {
+    font-family: Inter;
+    src: url(assets/fonts/Inter-Regular.woff2);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(assets/fonts/Roboto-Regular.woff2);
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.2rem;
+}
+
+main {
+    margin: 0 28%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+svg {
+    width: 15px;
+    height: 15px;
+}
+
+hr {
+    width: 100%;
+    flex-shrink: 0;
+    color: rgb(88, 88, 88);
+    margin: 10px 0;
+}
+
+.section-title {
+    letter-spacing: normal;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: bold;
+    color: rgb(39, 67, 226);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.name {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.name-emph {
+    color: rgb(39, 67, 226);
+    text-decoration: underline;
+}
+
+.summary {
+    margin-bottom: 25px;
+}
+
+.stack {
+    margin-bottom: 15px;
+}
+
+.experience-stack {
+    margin-top: 5px;
+}
+
+.project-stack {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contacts-list,
+.stack,
+.minor-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 10px;
+}
+
+.contact-item {
+    width: fit-content;
+}
+
+.contact-item,
+.stack-item {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    border-radius: 9999px;
+    padding: 5px 10px;
+    font-family: Roboto;
+}
+
+.stack-item p {
+    font-size: small;
+    letter-spacing: normal;
+}
+
+.experience-list {
+}
+
+.experience-item {
+    margin-top: 5px;
+}
+
+.project-title,
+.education-place,
+.experience-place {
+    font-weight: bold;
+    font-family: Inter;
+}
+
+.experience-position {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: rgb(88, 88, 88);
+    margin-top: 5px;
+}
+
+.education-details,
+.experience-point {
+    font-size: 0.85rem;
+    color: rgb(95, 95, 95);
+}
+
+.projects-list,
+.education-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0;
+}
+
+.project-description,
+.certificate-item {
+    font-size: 14px;
+    color: rgb(88, 88, 88);
+}
+
+.project-description {
+    padding-left: 5px;
+}
+
+.academic-list,
+.posts-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.academic-item,
+.post-item {
+    display: flex;
+    align-items: baseline;
+    gap: 0 5px;
+    color: rgb(88, 88, 88);
+}
+
+.academic-item svg,
+.post-item svg {
+    min-width: 15px;
+    min-height: 15px;
+}
