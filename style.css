@@ -168,7 +168,7 @@ hr {
 .academic-item,
 .post-item {
     display: flex;
-    align-items: baseline;
+    align-items: flex-start;
     gap: 0 5px;
     color: rgb(88, 88, 88);
 }
